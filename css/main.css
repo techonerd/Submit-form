@@ -199,6 +199,7 @@ iframe {
 .container-contact100 {
     width: 100%;
     min-height: 100vh;
+   
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -208,16 +209,14 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: #a64bf4;
-    background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
-    background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
-    background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
-    background: linear-gradient(45deg, #00dbde, #fc00ff);
+    background:url(../images/bg-head-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wrap-contact100 {
     width: 500px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.719);
     border-radius: 10px;
     overflow: hidden;
     padding: 42px 55px 45px 55px;
@@ -235,7 +234,7 @@ iframe {
     display: block;
     font-family: Poppins-Bold;
     font-size: 39px;
-    color: #333333;
+    color: #ffffff;
     line-height: 1.2;
     text-align: center;
     padding-bottom: 44px;
@@ -255,8 +254,8 @@ iframe {
 
 .label-input100 {
     font-family: Poppins-Regular;
-    font-size: 13px;
-    color: #666666;
+    font-size: 2em;
+    color: #fffafa;
     line-height: 1.5;
     padding-left: 5px;
 }
@@ -267,7 +266,7 @@ iframe {
     background: transparent;
     font-family: Poppins-Medium;
     font-size: 18px;
-    color: #333333;
+    color: #fff9f9;
     line-height: 1.2;
     padding: 0 5px;
 }
@@ -349,7 +348,7 @@ textarea.input100 {
     width: 300%;
     height: 100%;
     background: #a64bf4;
-    background: -webkit-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -webkit-linear-gradient(left, #00dbde, #fb00ffc2, #00dbde, #fc00ff);
     background: -o-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
     background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
     background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
@@ -359,6 +358,7 @@ textarea.input100 {
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    font-size: 2em;
 }
 
 .contact100-form-btn {
@@ -373,7 +373,7 @@ textarea.input100 {
     width: 100%;
     height: 50px;
     font-family: Poppins-Medium;
-    font-size: 16px;
+    font-size: 1.5em;
     color: #fff;
     line-height: 1.2;
 }
